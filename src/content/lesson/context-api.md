@@ -21,7 +21,7 @@ The Context API is here to solve some of those conundrums by:
 
 1. Centralizing a global application state: Instead of being limited to local states on views, you can now share data on one central component and spread to its inner components (children, grandchildren and so forth). The centralized state is called **store** and we can spread it by using the **Context.Provider** and **Context.Consumer**
 
-2. Data propagation and re-rendering: when this centralized *global state* (**store**) changes, it triggers a re-render of all of the children compoments (your entire application) which produces new data to show up in the UI. A central **setState***ish*.
+2. Data propagation and re-rendering: when this centralized *global state* (**store**) changes, it triggers a re-render of all of the children components (your entire application) which produces new data to show up in the UI. A central **setState***ish*.
 
 3. If you've already worked with react, you've probably felt the frustration of passing properties throughout your application, we call it "property hell".
 
